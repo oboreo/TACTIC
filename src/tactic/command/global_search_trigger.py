@@ -364,6 +364,7 @@ class GlobalSearchTrigger(Trigger):
 
        
         # check for old data structure with only keywords filled and initialize if necessary
+
         if not child_keywords_data:
             user_keywords = child_sobject.get_value('user_keywords')
             original_keywords = child_sobject.get_value('keywords')
